@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>CS290 Assignment 01</title>
+  <link rel="stylesheet" href="style.css" type="text/css">
+ </head>
+ <body>
+  
+  <!- 1.  6x6 table>
+  <CENTER>
+  <H1>CS290 Assignment 01</H1>
+  </CENTER>  
+  <TABLE>
+    <CAPTION>Textbook Price Comparison</CAPTION>
+	<THEAD>
+	<TR>
+	<TH></TH>
+	<TH>ISBN</TH>
+	<TH>Biblio.com</TH>
+	<TH>Textbooks.com</TH>
+	<TH>Amazon.com</TH>
+	<TH>Textbookrush.com</TH>
+	</TR>
+	</THEAD>
+	<TR></TR>
+	<TR>
+	<TD class="booktitle">Assembly Language for x86 Processors (7th Edition)</TD>
+	<TD>978-0133769401</TD>
+	<TD>$192.66</TD>
+	<TD>$173.85</TD>
+	<TD>$178.22</TD>
+	<TD>$207.10</TD>
+	</TR>
+	<TR>
+	<TD class="booktitle">Introduction to Algorithms (3rd Edition)</TD>
+	<TD>978-0262033848</TD>
+	<TD>$38.99</TD>
+	<TD>$90.51</TD>
+	<TD>$89.10</TD>
+	<TD>$107.11</TD>
+	</TR>
+	<TR>
+	<TD class="booktitle">PHP & MYSQL Web Development (4th Edition)</TD>
+	<TD>978-0262033848</TD>
+	<TD>$59.99</TD>
+	<TD>$54.50</TD>
+	<TD>$27.92</TD>
+	<TD>$54.99</TD>
+	</TR>
+	<TR>
+	<TD class="booktitle">Clean Code</TD>
+	<TD>978-0132350884</TD>
+	<TD>$41.95</TD>
+	<TD>$49.99</TD>
+	<TD>$36.40</TD>
+	<TD>$37.41</TD>
+	</TR>
+	<TR>
+	<TD class="booktitle">Computer Networking (7th Edition)</TD>
+	<TD>978-0133594140</TD>
+	<TD>$140.04</TD>
+	<TD>$161.10</TD>
+	<TD>$152.05</TD>
+	<TD>$175.32</TD>
+	</TR>
+	<TFOOT>
+	<TR>
+	<TD colspan=2>Data Last Updated:</TD>
+	<TD colspan=4>July 1st, 2017</TD>
+	</TR>
+	</TFOOT>
+  </TABLE>
+  
+ <BR><BR>
+  
+  <!- 2. Create a list (ul, ol or dl) with at least 3 entries.>
+  <DIV>
+  Textbooks to purchase:
+  <OL>
+  <LI>Assembly Language for x86 Processors (ISBN: 978-0133769401)
+  <LI>Introduction to Algorithms (ISBN: 978-0262033848)
+  <LI>PHP &amp; MYSQL Web Development (ISBN: 978-0262033848)
+  </OL>
+  </DIV>
+  
+  <!- Create a div that is aligned to the left side of the page and takes up 3/4 of the page width, has a space of 20px between it and the previous element and has a class of 'outer-content'.>
+  <div class="outer-content">
+    <div class="inner-content">
+       <body><p>This is a small sample size - for demonstration only.</p></body>
+    </div>
+  </div>
+   
+  <BR><BR><BR><BR>
+  <!- Create two forms. One should submit via a post, the other via a get, they should have identical content.>
+  
+  
+  <div id="forms">
+    <form action="http://classes.engr.oregonstate.edu/eecs/winter2015/cs290-400/tools/class-content/form_tests/check_request.php" method="get">
+        <fieldset>
+            <legend>GET Form</legend>
+            <fieldset class="form-spacing">
+                <label>Enter Text:
+                    <input type="text" name="text_input" size="20" />
+                </label>
+            </fieldset>
+            <fieldset class="form-spacing">
+                <label>Enter Number:
+                    <input type="number" name="numerical_input" />
+                </label>
+            </fieldset>
+            <fieldset class="form-spacing">
+                <label>Enter Password:
+                    <input type="password" name="password_input" size="20" />
+                </label>
+            </fieldset>
+            <fieldset class="form-spacing">
+                <p>Select your favorite candy:</p>
+                <label><input type="radio" name="candy" value="Snickers" />Snickers</label><br>
+                <label><input type="radio" name="candy" value="Skittles" />Skittles</label><br>
+                <label><input type="radio" name="candy" value="Mentos" />Mentos</label><br><br>
+                <input type="submit" value="Submit" />
+            </fieldset>
+        </fieldset>
+    </form>
+	<br><br>
+	    <form action="http://classes.engr.oregonstate.edu/eecs/winter2015/cs290-400/tools/class-content/form_tests/check_request.php" method="post">
+        <fieldset>
+            <legend>POST Form</legend>
+            <fieldset class="form-spacing">
+                <label>Enter Text:
+                    <input type="text" name="text_input" size="20" />
+                </label>
+            </fieldset>
+            <fieldset class="form-spacing">
+                <label>Enter Number:
+                    <input type="number" name="numerical_input" />
+                </label>
+            </fieldset>
+            <fieldset class="form-spacing">
+                <label>Enter Password:
+                    <input type="password" name="password_input" size="20" />
+                </label>
+            </fieldset>
+            <fieldset class="form-spacing">
+                <p>Select your favorite candy:</p>
+                <label><input type="radio" name="candy" value="Snickers" />Snickers</label><br>
+                <label><input type="radio" name="candy" value="Skittles" />Skittles</label><br>
+                <label><input type="radio" name="candy" value="Mentos" />Mentos</label><br><br>
+                <input type="submit" value="Submit" />
+            </fieldset>
+        </fieldset>
+    </form>
+	</DIV>
+  
+  
+ </body>
+</html>

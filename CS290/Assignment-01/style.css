@@ -1,0 +1,50 @@
+table, th, td {
+    border: 1px solid;
+}
+
+tr:nth-of-type(2n) {
+    background: #BCE3E4;
+}
+
+tr:nth-of-type(2n+3) {
+    background: #D5D9A2;
+}
+
+.booktitle {
+    font-style: italic;
+}
+
+.outer-content {
+    margin-top: 20px;
+    width: 75%;
+    float: left;
+    background-color: pink;
+    text-align: center;
+    height: 4em;
+    display: flex;
+    justify-content: center;
+}
+
+.inner-content {
+    align-self: center;
+    width: 75%;
+    background-color: lightblue;
+    height: 2em;
+    display: flex;
+    justify-content: center;
+}
+
+.inner-content-text {
+    display: flex;
+    align-items: center;
+}
+
+.form-spacing {
+    margin-top: .5em;
+    margin-bottom: .5em;
+}
+
+#forms {
+    padding-top: 1em;
+    clear: both;
+}
